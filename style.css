@@ -3,3 +3,44 @@ body {
   height: 100%;
   margin: 0;
 }
+
+
+#header {
+  text-align: center;
+}
+
+
+#main-content img {
+  display: block;
+  margin: 0 auto;
+}
+
+.nav a {
+  padding: 10px;
+  background-color: grey;
+  display: inline-block;
+  margin: 0 10px; /* Add some spacing between links */
+}
+
+/* Style the image caption */
+#main-content figcaption {
+  font-size: 16px;
+  text-align: center;
+}
+
+/* Center the text block within #featured-property */
+#featured-property p {
+  width: 800px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 10px;
+}
+
+
+#details div {
+  float: left;
+  width: 25%;
+  background-color: lightgray; /* Change the background color to your preference */
+  text-align: center;
+  padding: 10px;
+}
